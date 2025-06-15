@@ -1,1 +1,27 @@
-//Enter your code here//
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Guest List Manager</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <h1>Abby's Wedding</h1>
+  <h2>Event Guest List Manager</h2>
+  <form id="guest-form">
+    <input type="text" id="guest-name" placeholder="Enter guest name" required />
+    <select id="guest-category">
+      <option value="Friend">Friend</option>
+      <option value="Family">Family</option>
+      <option value="Colleague">Colleague</option>
+    </select>
+    <button type="submit">Add Guest</button>
+    <button type="delete">Delete Guest</button>
+  </form>
+  <ul id="guest-list"></ul>
+
+  <script src="index.js"></script>
+</body>
+</html>
+

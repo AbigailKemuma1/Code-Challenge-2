@@ -1,1 +1,52 @@
-//Enter yourcode here//
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 40px auto;
+  padding: 40px;
+  background-color: #597b90;
+  border-radius: 20px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input, select, button {
+  padding: 8px;
+  margin-right: 20px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #9ac2f9;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 6px;
+  border-left: 6px solid #a94212;
+}
+
+.category-friend {
+  border-left-color: #db6ee5;
+}
+
+.category-family {
+  border-left-color: #ffc107;
+}
+
+.category-colleague {
+  border-left-color: #17a2b8;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
